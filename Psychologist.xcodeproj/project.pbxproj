@@ -17,6 +17,7 @@
 		264AF4941578E3020065170E /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264AF4931578E3020065170E /* PsychologistViewController.m */; };
 		264AF49E1578E5AD0065170E /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 264AF49B1578E5AD0065170E /* FaceView.m */; };
 		264AF49F1578E5AD0065170E /* HappinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264AF49D1578E5AD0065170E /* HappinesViewController.m */; };
+		264AF4AE157900620065170E /* RotateableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264AF4AD157900620065170E /* RotateableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		264AF49B1578E5AD0065170E /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		264AF49C1578E5AD0065170E /* HappinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinesViewController.h; sourceTree = "<group>"; };
 		264AF49D1578E5AD0065170E /* HappinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinesViewController.m; sourceTree = "<group>"; };
+		264AF4AC157900620065170E /* RotateableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateableViewController.h; sourceTree = "<group>"; };
+		264AF4AD157900620065170E /* RotateableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				264AF49B1578E5AD0065170E /* FaceView.m */,
 				264AF49C1578E5AD0065170E /* HappinesViewController.h */,
 				264AF49D1578E5AD0065170E /* HappinesViewController.m */,
+				264AF4AC157900620065170E /* RotateableViewController.h */,
+				264AF4AD157900620065170E /* RotateableViewController.m */,
 				264AF4841578E3020065170E /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -177,6 +182,7 @@
 				264AF4941578E3020065170E /* PsychologistViewController.m in Sources */,
 				264AF49E1578E5AD0065170E /* FaceView.m in Sources */,
 				264AF49F1578E5AD0065170E /* HappinesViewController.m in Sources */,
+				264AF4AE157900620065170E /* RotateableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
