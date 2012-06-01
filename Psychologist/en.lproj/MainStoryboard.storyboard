@@ -192,7 +192,7 @@
                     <navigationItem key="navigationItem" title="Dr. Pill" id="hYW-fx-JUn"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-120" y="490"/>
+            <point key="canvasLocation" x="-138" y="478"/>
         </scene>
         <!--Happines View Controller - Diagnosis-->
         <scene sceneID="G0d-kU-cah">
@@ -260,7 +260,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="435" y="92"/>
+            <point key="canvasLocation" x="345" y="66"/>
         </scene>
         <!--Happines View Controller - Diagnosis-->
         <scene sceneID="8ww-ze-1V8">
@@ -287,7 +287,7 @@
             </objects>
             <point key="canvasLocation" x="345" y="1074"/>
         </scene>
-        <!--Happines View Controller - Um, er, uh ...-->
+        <!--Happines View Controller - Diagnosis-->
         <scene sceneID="Az6-cC-CjG">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LUw-fo-b0C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -297,20 +297,50 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="cjC-Kt-iRa" customClass="FaceView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="365"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bso-0G-qxC">
+                                <rect key="frame" x="61" y="373" width="199" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Go to my website.">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zal-Kr-wP2" kind="push" identifier="Website" id="iDa-6H-ZsU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Um, er, uh ..." id="PgQ-LX-u2U"/>
+                    <navigationItem key="navigationItem" title="Diagnosis" id="PgQ-LX-u2U"/>
                     <connections>
                         <outlet property="faceView" destination="cjC-Kt-iRa" id="zOo-Q9-0Ly"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="401" y="652"/>
+            <point key="canvasLocation" x="345" y="646"/>
+        </scene>
+        <!--View Controller - Um, er, uh ...-->
+        <scene sceneID="C3b-NX-XRz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r1F-ix-JSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="zal-Kr-wP2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CHa-Tq-EYM">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Um, er, uh ..." id="6Ss-CO-2UW"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="803" y="651"/>
         </scene>
     </scenes>
     <classes>
