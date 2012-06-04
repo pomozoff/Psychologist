@@ -42,6 +42,7 @@
 		264AF49D1578E5AD0065170E /* HappinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinesViewController.m; sourceTree = "<group>"; };
 		264AF4AC157900620065170E /* RotateableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateableViewController.h; sourceTree = "<group>"; };
 		264AF4AD157900620065170E /* RotateableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateableViewController.m; sourceTree = "<group>"; };
+		2656B30B157C92F800419D5F /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				264AF48D1578E3020065170E /* PsychologistAppDelegate.m */,
 				264AF4921578E3020065170E /* PsychologistViewController.h */,
 				264AF4931578E3020065170E /* PsychologistViewController.m */,
+				2656B30B157C92F800419D5F /* SplitViewBarButtonItemPresenter.h */,
 				264AF49A1578E5AD0065170E /* FaceView.h */,
 				264AF49B1578E5AD0065170E /* FaceView.m */,
 				264AF49C1578E5AD0065170E /* HappinesViewController.h */,
