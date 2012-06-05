@@ -59,24 +59,6 @@
     self.faceView.dataSource = self;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"Website"]) {
-        CGRect frame = [segue.destinationViewController view].bounds;
-        UIWebView *webView = [[UIWebView alloc] initWithFrame:frame];
-        webView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin |
-                                   UIViewAutoresizingFlexibleRightMargin |
-                                   UIViewAutoresizingFlexibleTopMargin |
-                                   UIViewAutoresizingFlexibleBottomMargin |
-                                   UIViewAutoresizingFlexibleWidth |
-                                   UIViewAutoresizingFlexibleHeight;
-        [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
-        
-        [[segue.destinationViewController view] addSubview:webView];
-    }
-}
-
-
 - (void)handleHappinesGesture:(UIPanGestureRecognizer *)recognizer
 {
     if ( (recognizer.state == UIGestureRecognizerStateChanged) ||

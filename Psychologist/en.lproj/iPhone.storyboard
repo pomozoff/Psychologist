@@ -327,23 +327,39 @@
             </objects>
             <point key="canvasLocation" x="157" y="259"/>
         </scene>
-        <!--Rotateable View Controller - Um, er, uh ...-->
+        <!--Dr Pill Website View Controller - Um, er, uh ...-->
         <scene sceneID="C3b-NX-XRz">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1F-ix-JSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="zal-Kr-wP2" customClass="RotateableViewController" sceneMemberID="viewController">
+                <viewController id="zal-Kr-wP2" customClass="DrPillWebsiteViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CHa-Tq-EYM">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="7nJ-Wi-L7Q">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Um, er, uh ..." id="6Ss-CO-2UW"/>
+                    <connections>
+                        <outlet property="webView" destination="7nJ-Wi-L7Q" id="dgm-Ht-C6f"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="679" y="254"/>
         </scene>
     </scenes>
     <classes>
+        <class className="DrPillWebsiteViewController" superclassName="RotateableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DrPillWebsiteViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
         <class className="FaceView" superclassName="UIView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FaceView.h"/>
             <relationships>
@@ -354,6 +370,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HappinesViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="faceView" candidateClass="FaceView"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
             </relationships>
         </class>
         <class className="PsychologistViewController" superclassName="UIViewController">
